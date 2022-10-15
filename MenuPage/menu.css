@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-page {
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url("/images/image\ 17.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.center-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-heading h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #fff;
+}
+
+
+
+.menu-items-container1, .menu-items-container3 {
+    min-height: 100vh;
+    background-color: #0B1517;
+    padding: 70px 50px 50px 0px;
+    color: #fff;
+}
+
+.menu-items-container2 {
+    padding: 70px 0px 50px 50px;
+    min-height: 100vh;
+    background-color: #0B1517;
+    padding: 70px 0px 50px 50px;
+    color: #fff;
+}
+
+.items-group1 {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.group-img-1 {
+    width: 430px;
+    height: auto;
+    z-index: -1;
+}
+
+.right-group-img1 {
+    width: 430px;
+    height: auto;
+    z-index: -1;
+}
+
+.right-group-img2 {
+    width: 430px;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    top: 75px;
+    right: 70px;
+}
+
+.group-img-2 {
+    width: 430px;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    top: 75px;
+    left: 70px;
+}
+
+.right-items-lists {
+    /* padding: 100px 150px; */
+    /* padding: 100px 150px 100px 100px; */
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.left-items-lists {
+    /* padding: 100px 150px 100px 100px; */
+    padding: 100px 150px 100px 50px;
+}
+
+.right-items-lists h1, .left-items-lists h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.right-items-lists span , .left-items-lists span{
+    color: #DC9457;
+}
+
+.right-items-lists p, .left-items-lists p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #C2C2C2;
+
+}
+
+.lists {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.lists-col {
+    margin-top: 40px;
+}
+
+.lists-heading h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: #DC9457;
+    margin-bottom: 4px;
+}
+
+.lists-heading p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #DBDBDB;
+    font-size: 14px;
+}
+
+.lists .price-rate {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #DC9457;
+    font-size: 17px;
+}
